@@ -1,7 +1,7 @@
 # MachineLearning_ProjectA02
 
 **UTS IF2116 Pembelajaran Mesin, Milestone 1 | Project ID: A02**
-Nama kelompok: [isi] | Kelas: [isi] | Dosen pengampu: Al Hamidy, S.Kom, M.I.T., Ph.D. | Universitas Mikroskil
+Nama kelompok: A02 | Kelas: IF A Pagi | Dosen pengampu: Al Hamidy, S.Kom, M.I.T., Ph.D. | Universitas Mikroskil
 
 | NIM | Nama |
 |---|---|
@@ -16,8 +16,8 @@ Harga mobil bekas pada iklan online sangat bervariasi dan dipengaruhi banyak fak
 - Nama: Used Car Analysis in Indonesia, file `P0M1_Ali_Abdurrahman_old.xlsx`
 - Sumber: https://github.com/aliabdurrahman10/Used-Car-Analysis-in-Indonesia (web scraping mobil123, lisensi MIT, periode pengumpulan tidak disebutkan)
 - 27.781 baris x 14 kolom; satu baris = satu iklan mobil
-- Cara memperoleh: [isi]. File yang dipakai kelompok ada di repositori ini.
-- Catatan versi: kolom `listing__type` pada file ini hanya berisi Baru/Bekas, berbeda dari file di repositori sumber.
+- Cara memperoleh: File yang dipakai kelompok ada di repositori ini.
+- Catatan versi: kolom `listing__type` pada file ini hanya berisi Baru/Bekas, berbeda dari file di repositori sumber. (Kami merubah listing_typenya manual menjadi 2 kategori saja yaitu Bekas dan Baru).
 
 ## Isi repositori
 | File | Keterangan |
@@ -31,7 +31,6 @@ Harga mobil bekas pada iklan online sangat bervariasi dan dipengaruhi banyak fak
 2. Unduh `P0M1_Ali_Abdurrahman_old.xlsx` dari repositori ini ke komputer.
 3. Pilih Runtime, Run all. Pada sel pertama klik *Choose Files* dan pilih file Excel tersebut.
 4. Semua eksperimen memakai seed 42. Sel UMAP memasang `umap-learn` secara otomatis.
-5. Estimasi waktu menjalankan seluruh notebook: [isi dari jalankanmu]. Versi pustaka: [isi dari Colab].
 
 ## Hasil eksperimen awal (data uji 20%, 5.480 baris; CV = 5-fold pada data latih)
 | Model | MAE uji (Rp juta) | R² uji (log) | MAE CV (Rp juta) |
